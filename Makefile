@@ -5,6 +5,9 @@ SUBLEVEL = 0
 EXTRAVERSION = -rc3
 NAME = Baby Opossum Posse
 
+# Extra Flags
+CFLAGS=-Wno-error make
+
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
 # More info can be located in ./README
